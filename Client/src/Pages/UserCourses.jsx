@@ -1,9 +1,13 @@
 import React from 'react'
 import Courses from '../components/Courses'
+import Navbar from '../components/Navbar'
 
 function UserCourses() {
   return (
-    <Courses/>
+    <div>
+      <Navbar/>
+      <Courses/>
+    </div>
   )
 }
 
